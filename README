@@ -1,0 +1,39 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+SERVER APPLICATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+LIBRARIES NEEDED:
+- Pthread
+- OpenMP
+- Boost.asio
+
+DEPENDENCIES:
+Requires Boost library installed in the system.
+
+COMPILE:
+make test_server
+
+RUN:
+./test_server
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+CLIENT APPLICATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+LIBRARIES NEEDED:
+- Pthread
+- Termbox
+- Boost.asio
+
+DEPENDENCIES:
+Requires Boost library installed in the system.
+
+COMPILE - for Linux:
+make linux
+
+COMPILE - for Windows:
+make windows
+
+RUN:
+./note
